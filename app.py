@@ -69,7 +69,7 @@ def page_business():
     )
     st.markdown("[Open the UCI dataset page](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset)")
     st.subheader("Project team")
-    names = ["Sreehari J", "Rhea Sibi", "Richin", "Diya", "Chotu"]
+    names = ["Sreehari J", "Rhea Sibi", "Richin", "Diya", "Vandita"]
     cols = st.columns(len(names))
     for col, name in zip(cols, names):
         with col:
