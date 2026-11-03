@@ -69,7 +69,7 @@ def page_business():
     )
     st.markdown("[Open the UCI dataset page](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset)")
     st.subheader("Project team")
-    names = ["Sreehari J", "Rhea Sibi", "Richin", "Diya", "Vandita"]
+    names = ["Sreehari J", "Rhea Sibi", "Richin Mathew", "Diya Singh", "Vandita Arya","Isha Mehla"]
     cols = st.columns(len(names))
     for col, name in zip(cols, names):
         with col:
@@ -205,7 +205,7 @@ def main():
     page = st.sidebar.radio("Navigate", ["Business Problem", "Data Insights", "Prediction"])
     st.sidebar.divider()
     st.sidebar.markdown("**Project team**")
-    st.sidebar.write("Sreehari J · Rhea Sibi · Richin · Diya · Chotu")
+    st.sidebar.write("Sreehari J · Rhea Sibi · Richin Mathew · Diya Singh · Vandita Arya · Isha Mehla ")
     if page == "Business Problem":
         page_business()
     elif page == "Data Insights":
